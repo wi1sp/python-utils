@@ -6,7 +6,7 @@ from configs_to_format.config_structure.config_accessor import FromConfigAccesso
 from configs_to_format.config_structure.config_field import ConfigField
 
 
-class c(ConfigField):
+class MultiConfigField(ConfigField):
     def __init__(self, fields: List[ConfigField], accessor: FromConfigAccessor):
         self.fields = fields
         super().__init__(self.__class__.__name__,  accessor)
