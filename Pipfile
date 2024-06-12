@@ -9,6 +9,7 @@ pandas = "*"
 numpy = "*"
 matplotlib = "*"
 pyyaml = "*"
+openpyxl = "*"
 
 [requires]
 python_version = "3.11"
