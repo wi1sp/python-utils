@@ -1,7 +1,7 @@
 from typing import Iterator, Dict
 
-from configs_to_format.config_structure.config_accessor import FromConfigAccessor
-from configs_to_format.config_structure.config_field import ConfigField
+from .config_accessor import FromConfigAccessor
+from .config_field import ConfigField
 
 
 class ConfigFieldCollection(ConfigField):

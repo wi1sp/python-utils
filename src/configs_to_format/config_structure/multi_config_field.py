@@ -1,9 +1,8 @@
-from abc import ABC, abstractmethod
 from collections.abc import Iterator
 from typing import List, Dict
 
-from configs_to_format.config_structure.config_accessor import FromConfigAccessor
-from configs_to_format.config_structure.config_field import ConfigField
+from .config_accessor import  FromConfigAccessor
+from .config_field import ConfigField
 
 
 class MultiConfigField(ConfigField):

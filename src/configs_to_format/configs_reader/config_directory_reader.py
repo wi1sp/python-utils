@@ -4,8 +4,8 @@ from collections.abc import Iterator
 from pathlib import Path
 from typing import Any, Optional
 
-from configs_to_format.configs_reader.base_config_reader import BaseConfigReader
-from logger.logger_mixin import LoggerMixIn
+from .base_config_reader import BaseConfigReader
+from src.logger.logger_mixin import LoggerMixIn
 
 
 class ConfigDirectoryReader(LoggerMixIn):

@@ -1,7 +1,6 @@
-from abc import ABC, abstractmethod
 from typing import Dict, Iterator
 
-from configs_to_format.config_structure.config_accessor import FromConfigAccessor
+from .config_accessor import FromConfigAccessor
 
 
 class ConfigField:

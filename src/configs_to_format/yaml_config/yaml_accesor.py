@@ -1,6 +1,6 @@
 from typing import List, Any
 
-from configs_to_format.config_structure.config_accessor import FromConfigAccessor
+from src.configs_to_format.config_structure.config_accessor import FromConfigAccessor
 
 
 class YamlConfigAccessor(FromConfigAccessor):

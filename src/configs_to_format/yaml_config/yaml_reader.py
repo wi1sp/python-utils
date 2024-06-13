@@ -1,6 +1,6 @@
 import yaml
 
-from configs_to_format.configs_reader.base_config_reader import BaseConfigReader
+from src.configs_to_format.configs_reader.base_config_reader import BaseConfigReader
 
 
 class YamlConfigReader(BaseConfigReader):
